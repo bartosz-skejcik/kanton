@@ -16,7 +16,7 @@ import { ArrowUpRightIcon } from "@heroicons/vue/24/solid";
                 TO BE THE BEST YOU HAVE TO LEARN FROM THE BEST
             </h1>
             <button
-                class="flex items-center justify-center gap-3 px-6 py-2 text-lg font-medium transition-all duration-300 bg-red-600 md:py-3 md:text-xl md:px-10 hover:shadow-sharp hover:shadow-red-500"
+                class="flex items-center justify-center gap-3 px-6 py-2 text-lg font-medium transition-all duration-300 bg-red-500 md:py-3 md:text-xl md:px-10 hover:bg-red-600"
             >
                 Learn more
                 <ArrowUpRightIcon class="w-5 text-white md:w-6 aspect-square" />
