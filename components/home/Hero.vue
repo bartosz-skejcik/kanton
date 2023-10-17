@@ -4,7 +4,7 @@ import { ArrowUpRightIcon } from "@heroicons/vue/24/solid";
 
 <template>
     <header
-        class="flex items-center justify-center w-screen min-h-screen bg-black bg-center bg-no-repeat md:bg-bottom bg-fit"
+        class="flex items-center justify-center w-screen min-h-screen bg-fixed bg-black bg-center bg-no-repeat md:bg-bottom bg-fit"
         style="background-image: url('./images/hero.png')"
     >
         <div

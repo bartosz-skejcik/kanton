@@ -1,8 +1,8 @@
 <script lang="ts" setup>
 const links = [
     {
-        href: "/",
-        text: "Home",
+        href: "#ebook",
+        text: "Ebook",
     },
     {
         href: "#about",
@@ -39,11 +39,14 @@ const socials = [
 
 <template>
     <nav
-        class="fixed top-0 left-0 right-0 z-50 flex items-center justify-around w-full px-4 py-4 md:px-12 bg-black/10 lg:bg-white/5"
+        class="fixed top-0 left-0 right-0 z-50 flex items-center justify-around w-full px-4 py-4 backdrop-filter backdrop-blur-lg md:px-12 bg-black/10 lg:bg-white/5"
     >
-        <h6 class="-mt-1 text-lg font-black leading-snug md:text-xl md:mt-0">
+        <NuxtLink
+            to="/"
+            class="-mt-1 text-lg font-black leading-snug md:text-xl md:mt-0"
+        >
             KUBA KANTON
-        </h6>
+        </NuxtLink>
         <div class="hidden gap-8 md:flex">
             <NuxtLink
                 v-for="(link, index) in links"

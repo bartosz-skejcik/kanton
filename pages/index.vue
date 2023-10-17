@@ -6,5 +6,6 @@
     >
         <HomeNavbar />
         <HomeHero />
+        <HomeEbook />
     </div>
 </template>
