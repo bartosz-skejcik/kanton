@@ -22,14 +22,17 @@ const socials = [
     {
         class: "bx bxl-instagram",
         href: "https://www.instagram.com/kantonkuba_/",
+        color: "hover:bg-gradient-to-r hover:from-[#FEDA75] hover:to-[#FA7E1E]",
     },
     {
         class: "bx bxl-facebook",
         href: "https://www.facebook.com/kuba.kanton",
+        color: "hover:bg-gradient-to-r hover:from-blue-300 hover:to-blue-500",
     },
     {
         class: "bx bxl-gmail",
         href: "mailto:kanton.kuba@gmail.com",
+        color: "hover:bg-gradient-to-r hover:from-[#EA4335] hover:to-[#D93025]",
     },
 ];
 </script>
@@ -38,7 +41,9 @@ const socials = [
     <nav
         class="fixed top-0 left-0 right-0 z-50 flex items-center justify-around w-full px-4 py-5 md:px-12 bg-white/5"
     >
-        <h6 class="text-xl font-black leading-snug">JAKUB KANTON</h6>
+        <h6 class="-mt-1 text-lg font-black leading-snug md:text-xl md:mt-0">
+            JAKUB KANTON
+        </h6>
         <div class="hidden gap-8 md:flex">
             <NuxtLink
                 v-for="(link, index) in links"
@@ -49,15 +54,18 @@ const socials = [
                 {{ link.text }}
             </NuxtLink>
         </div>
-        <div class="hidden gap-8 md:flex">
+        <div class="flex gap-3 md:gap-8">
             <NuxtLink
                 v-for="(social, index) in socials"
                 :key="index"
-                class="text-white transition-colors duration-200 ease-in-out hover:text-neutral-500"
+                :class="`bg-white text-transparent bg-clip-text transition-all duration-200 text-xl hover:scale-105 ease-in-out ${social.color}`"
                 :to="social.href"
             >
                 <i :class="social.class"></i>
             </NuxtLink>
         </div>
+        <button class="flex items-center justify-center md:hidden">
+            <i class="-mt-1 text-2xl text-white bx bx-menu"></i>
+        </button>
     </nav>
 </template>
