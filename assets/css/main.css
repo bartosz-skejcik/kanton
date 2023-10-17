@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+@font-face {
+    font-family: "CustomFont";
+    src: url("~/assets/fonts/The-Unknown-FontZillion/Fonts/theunknown-regular.ttf")
+        format("truetype");
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.customfont {
+    font-family: "CustomFont";
+}
+
+* {
+    font-family: "Inter", sans-serif;
+}
