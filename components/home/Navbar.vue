@@ -42,13 +42,13 @@ const socials = [
         class="fixed top-0 left-0 right-0 z-50 flex items-center justify-around w-full px-4 py-5 md:px-12 bg-white/5"
     >
         <h6 class="-mt-1 text-lg font-black leading-snug md:text-xl md:mt-0">
-            JAKUB KANTON
+            KUBA KANTON
         </h6>
         <div class="hidden gap-8 md:flex">
             <NuxtLink
                 v-for="(link, index) in links"
                 :key="index"
-                class="font-medium text-white uppercase transition-colors duration-200 ease-in-out hover:text-neutral-500"
+                class="text-sm font-semibold text-white uppercase transition-colors duration-200 ease-in-out hover:text-neutral-500"
                 :to="link.href"
             >
                 {{ link.text }}
