@@ -8,6 +8,9 @@ dependencies:
   '@heroicons/vue':
     specifier: ^2.0.18
     version: 2.0.18(vue@3.3.4)
+  keen-slider:
+    specifier: ^6.8.6
+    version: 6.8.6
 
 devDependencies:
   '@nuxt/devtools':
@@ -3591,6 +3594,10 @@ packages:
     resolution: {integrity: sha512-POQXvpdL69+CluYsillJ7SUhKvytYjW9vG/GKpnf+xP8UWgYEM/RaMzHHofbALDiKbbP1W8UEYmgGl39WkPZsg==}
     engines: {'0': node >= 0.2.0}
     dev: true
+
+  /keen-slider@6.8.6:
+    resolution: {integrity: sha512-dcEQ7GDBpCjUQA8XZeWh3oBBLLmyn8aoeIQFGL/NTVkoEOsmlnXqA4QykUm/SncolAZYGsEk/PfUhLZ7mwMM2w==}
+    dev: false
 
   /kleur@3.0.3:
     resolution: {integrity: sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==}

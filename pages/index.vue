@@ -8,6 +8,7 @@
         <HomeNavbar />
         <HomeHero />
         <HomeEbook />
+        <HomeTestimonials />
         <HomeAbout />
     </div>
 </template>
