@@ -2,10 +2,12 @@
 
 <template>
     <div
-        class="flex flex-col items-center justify-start w-screen min-h-screen overflow-x-hidden text-white bg-black"
+        style="overflow-x: hidden"
+        class="flex flex-col items-center justify-start w-full min-h-screen text-white bg-black"
     >
         <HomeNavbar />
         <HomeHero />
         <HomeEbook />
+        <HomeAbout />
     </div>
 </template>

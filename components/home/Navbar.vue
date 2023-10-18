@@ -2,7 +2,7 @@
 const links = [
     {
         href: "#ebook",
-        text: "Ebook",
+        text: "E-book",
     },
     {
         href: "#about",

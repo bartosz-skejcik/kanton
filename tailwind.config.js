@@ -11,7 +11,7 @@ export default {
     theme: {
         extend: {
             boxShadow: {
-                sharp: "-5px 5px 0px 0px rgba(66, 68, 90, 1);",
+                sharp: "12px 12px 0px 0px rgba(66, 68, 90, 1);",
             },
         },
     },
