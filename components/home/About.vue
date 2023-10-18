@@ -12,7 +12,7 @@
                 style="aspect-ratio: 3/4"
                 class="object-cover object-center w-full shadow-sharp shadow-neutral-900"
                 alt="hero"
-                src="images/about.png"
+                src="/images/about.png"
             />
         </div>
         <div
