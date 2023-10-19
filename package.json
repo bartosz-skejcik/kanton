@@ -20,6 +20,7 @@
     },
     "dependencies": {
         "@heroicons/vue": "^2.0.18",
+        "@vueuse/motion": "^2.0.0",
         "keen-slider": "^6.8.6"
     }
 }

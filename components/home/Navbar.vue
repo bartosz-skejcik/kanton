@@ -39,7 +39,7 @@ const socials = [
 
 <template>
     <nav
-        class="fixed top-0 left-0 right-0 z-50 flex items-center justify-around w-full px-4 py-4 backdrop-filter backdrop-blur-lg md:px-12 bg-black/10 lg:bg-white/5"
+        class="fixed top-0 left-0 right-0 z-[999999] flex items-center justify-around w-full px-4 py-4 backdrop-filter backdrop-blur-lg md:px-12 bg-black/10 lg:bg-white/5"
     >
         <NuxtLink
             to="/"
@@ -61,6 +61,7 @@ const socials = [
             <NuxtLink
                 v-for="(social, index) in socials"
                 :key="index"
+                target="_blank"
                 :class="`bg-white text-transparent bg-clip-text transition-all duration-200 text-xl hover:scale-105 ease-in-out ${social.color}`"
                 :to="social.href"
             >

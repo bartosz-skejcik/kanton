@@ -10,5 +10,6 @@
         <HomeEbook />
         <HomeTestimonials />
         <HomeAbout />
+        <HomeFooter />
     </div>
 </template>

@@ -79,7 +79,7 @@ const testimonials = [
                 class="flex items-center justify-center h-full p-[1px] bg-gradient-to-tr from-neutral-700 via-neutral-600 to-neutral-400 keen-slider__slide"
             >
                 <div
-                    class="flex flex-col items-center justify-start w-full h-full gap-3 p-6 bg-black"
+                    class="flex flex-col items-center justify-start w-full h-full gap-3 p-2 bg-black md:p-6"
                 >
                     <div class="flex items-center justify-start w-full gap-3">
                         <img
