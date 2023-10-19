@@ -20,8 +20,14 @@ import { ArrowDownTrayIcon } from "@heroicons/vue/24/solid";
                 <h5 class="text-sm font-semibold uppercase text-neutral-500">
                     Download my free ebook
                 </h5>
-                <h1 class="text-3xl font-bold text-red-500 lg:text-5xl">
-                    $99.99
+                <h1
+                    class="space-x-4 text-3xl font-bold text-red-500 lg:text-5xl"
+                >
+                    <span class="">Free</span
+                    ><span
+                        class="text-xl line-through text-neutral-600 lg:text-3xl"
+                        >$99.99</span
+                    >
                 </h1>
                 <div class="pb-3 pl-3 space-y-2">
                     <h2 class="pb-1 -ml-3 text-2xl font-semibold lg:text-3xl">

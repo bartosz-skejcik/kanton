@@ -8,7 +8,10 @@
             2023 &copy; <span class="font-medium">Kanton</span> Inc.
         </h3>
         <h3 class="text-neutral-400">
-            Designed & Built by Bartłomiej Paczesny
+            Designed & Built by
+            <NuxtLink to="https://dev.paczesny.pl"
+                >Bartłomiej Paczesny</NuxtLink
+            >
         </h3>
     </footer>
 </template>
