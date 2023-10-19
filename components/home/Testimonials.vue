@@ -57,7 +57,10 @@ const testimonials = [
 </script>
 
 <template>
-    <section class="flex flex-col items-center justify-center gap-12 py-24">
+    <section
+        id="testimonials"
+        class="flex flex-col items-center justify-center gap-12 py-24"
+    >
         <h1
             class="text-3xl font-semibold leading-relaxed text-transparent uppercase bg-gradient-to-tr from-red-600 bg-clip-text to-red-400 lg:text-5xl"
         >
@@ -68,7 +71,7 @@ const testimonials = [
             class="relative keen-slider h-[40vh] md:h-[35vh] py-12"
         >
             <div
-                class="z-50 absolute inset-0 h-[40vh] md:h-[35vh] from-15% to-85% bg-gradient-to-r from-black via-transparent to-black"
+                class="z-50 absolute inset-0 h-[40vh] md:h-[35vh] from-15% to:85% md:from-10% md:to-90% bg-gradient-to-r from-black via-transparent to-black"
             ></div>
             <div
                 v-for="(item, index) in testimonials"
